@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Coustard|Indie+Flower&display=swap");
+
+body {
+    background-color: #1d0a1f !important;
+    font-family: "Coustard", serif !important;
+}
+.App {
+    text-align: center;
+}
+li {
+    max-width: 23rem;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+li:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.myFont {
+    font-family: "Indie Flower", cursive;
+    font-size: 1.6rem !important;
+}
+.delete {
+    cursor: pointer;
+    float: right;
+    color: red;
+}
+.change {
+    cursor: pointer;
+    float: left;
+    color: purple;
+}
+.newColor {
+    color: #a38cd9;
+}
+#footer {
+    margin-top: 20%;
+    background-color: #4b57c3;
+}
+
+/*MEDIA QUERIES*/
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+    #footer {
+        margin-top: 45%;
+    }
+}
+
+/*  Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    #footer {
+        margin-top: 45%;
+    }
+}
+
+/*  Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    #footer {
+        margin-top: 45%;
+    }
+}
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    h3 {
+        font-size: 1.5rem !important ;
+    }
+}
